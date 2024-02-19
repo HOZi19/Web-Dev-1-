@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #EF7368;
+            color: #060606;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+
+        h1 {
+            margin: 0;
+            display: inline-block;
+            text-align: center;
+        }
+        .sign-in, .sign-up {
+            background-color: #0e0d0d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            position: absolute;
+            top: 20px;
+        }    
+
+        .sign-in {
+            right: 20px;
+        }
+
+        .sign-up {
+            right: 110px;
+        }
+
+        .sign-in:hover, .sign-up:hover {
+            background-color: #080808;
+        }
+
+        .container {
+            max-width: 1600px;
+            height: 600px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .movie {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .movie img {
+            max-width: 1500px;
+            height: 600px;
+            border-radius: 1px;
+            margin-bottom: 1px;
+        }
+       
+
+        .movie h2 {
+            margin-top: 0;
+        }
+
+        .movie p {
+            margin: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .start-button {
+            background-color: #171717;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            font-size: 16px;
+            display: block;
+            margin: 0 auto; 
+        }
+
+        .start-button:hover {
+            background-color: #0c0b0b;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EndLessStreams</h1>
+        <a href="#" class="sign-in">Sign In</a>
+        <a href="#" class="sign-up">Sign Up</a>
+    </header>
+    <div class="container">
+        <div class="movie">
+            <img src="Container.png" alt="Stream service logo"> 
+            <h1> WATCH YOUR FAVORITES, ALL IN ONE</h1> 
+            <button class="start-button">Start Watching</button>            
+        </div>
+    <footer>
+        <p>&copy; EndLessStreams </p>
+    </footer>
+</body>
+</html>
+
